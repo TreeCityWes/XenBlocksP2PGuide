@@ -9,7 +9,7 @@ Follow this guide to text the XenBlocks P2P Network
 | `wget https://go.dev/dl/go1.21.3.linux-amd64.tar.gz` | Download new version |
 | `sudo tar -C /usr/local -xzf go1.21.3.linux-amd64.tar.gz` | Extract tarball (compressed file) |
 | `nano ~/.bashrc` | Open `~/.bashrc` file for editing |
-| Add the following lines to `~/.bashrc`: <br> `export PATH=$PATH:/usr/local/go/bin` <br> `export GOPATH=$HOME/go` <br> `export PATH=$PATH:$GOPATH/bin` | Set Go environment variables |
+|  `export PATH=$PATH:/usr/local/go/bin` <br> `export GOPATH=$HOME/go` <br> `export PATH=$PATH:$GOPATH/bin` | Add the following lines to the end of the file to set Go environment variables  |
 | `source ~/.bashrc` | Reload profile to apply changes |
 | `go version` | Verify new version of Go |
 | `git clone https://github.com/FairCrypto/xenminer-p2p` | Clone XenMiner P2P GitHub repository |
