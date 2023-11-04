@@ -13,8 +13,8 @@ Follow this guide to test the XenBlocks P2P Network
 | `source ~/.bashrc` | Reload profile to apply changes |
 | `go version` | Verify new version of Go |
 | `git clone https://github.com/FairCrypto/xenminer-p2p` | Clone XenMiner P2P GitHub repository |
-| `rm go.mod go.sum` | Remove GO Files |
 | `cd xenminer-p2p` | Change directory to xenminer-p2p folder |
+| `rm go.mod go.sum` | Remove GO Files |
 | `go mod init p2p` | Initialize P2P Module |
 | `go mod tidy` | Update Go projects |
 | `go mod verify` | Verify Go projects |
