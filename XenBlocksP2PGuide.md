@@ -12,8 +12,8 @@ Follow this guide to test the XenBlocks P2P Network
 |  `export PATH=$PATH:/usr/local/go/bin` <br> `export GOPATH=$HOME/go` <br> `export PATH=$PATH:$GOPATH/bin` | Add the following lines to the end of the bashrc file to set Go environment variables  |
 | `source ~/.bashrc` | Reload profile to apply changes |
 | `go version` | Verify new version of Go |
-| `git clone https://github.com/FairCrypto/xenminer-p2p` | Clone XenMiner P2P GitHub repository |
-| `cd xenminer-p2p` | Change directory to xenminer-p2p folder |
+| `git clone https://github.com/jacklevin74/xenminer` | Clone XenMiner P2P GitHub repository |
+| `cd xenminer/p2pnode` | Change directory to xenminer-p2p folder |
 | `rm go.mod go.sum` | Remove GO Files |
 | `go mod init p2p` | Initialize P2P Module |
 | `go mod tidy` | Update Go projects |
