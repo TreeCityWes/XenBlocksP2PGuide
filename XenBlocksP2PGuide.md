@@ -14,7 +14,6 @@ Follow this guide to test the XenBlocks P2P Network
 | `go version` | Verify new version of Go |
 | `git clone https://github.com/jacklevin74/xenminer` | Clone XenMiner P2P GitHub repository |
 | `cd xenminer/p2pnode` | Change directory to xenminer-p2p folder |
-| `rm go.mod go.sum` | Remove GO Files |
 | `go mod init p2p` | Initialize P2P Module |
 | `go mod tidy` | Update Go projects |
 | `go mod verify` | Verify Go projects |
